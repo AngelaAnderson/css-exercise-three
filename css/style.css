@@ -1,3 +1,10 @@
+<link rel"stylesheet" type="text/css" href="reset.css">
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+a:hover {
+  background-color: #ffff00;
+}
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -19,3 +26,16 @@ nav {
 .restaurant-list {
   padding-top: 50px;
 }
+.content
+  h1 {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    line-height: .25em;
+  }
+  h3 {
+    font-size: 16px;
+    text-align: left;
+    font-weight: lighter;
+    line-height: .5em;
+    }
