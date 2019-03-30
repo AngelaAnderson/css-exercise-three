@@ -1,8 +1,8 @@
-<link rel="stylesheet" type="text/css" href="reset.css">
 *, *::before, *::after {
   box-sizing: border-box;
 }
-.location:hover {background-color: red;
+.location:hover {background-color: #666666;
+  cursor: pointer;
 }
 body {
   background-color: #333;
@@ -20,15 +20,14 @@ body {
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
-  position: 5px
+  position: 5px;
   width: 420px;
 }
 .content{
   box-sizing: border-box;
-  border-bottom: 1px solid #000000;
-  padding-top: 2%
+  padding-top: 2%;
   float: left;
-  padding: 3%
+  padding: 3%;
 }
 .arrow {
   box-sizing: border-box;
@@ -38,24 +37,24 @@ nav {
   bottom: 55px;
 }
   h1 {
-    box-sizing: border-box;
     font-size: 18px;
     text-align: left;
     font-weight: bold;
-    line-height: .05em;
-    padding: .02%;
+    padding-top: 5px;
   }
   h3 {
-    box-sizing: border-box;
     font-size: 14px;
     text-align: left;
     font-weight: lighter;
-    line-height: .05em;
-    padding: .02%;
+    padding-top: 5px;
     }
     .restaurant-list
     {
       box-sizing: border-box;
-      background-color: #d3d3d3;
       padding-top: .02%;
     }
+.location {
+  background-color: #d3d3d3;
+  height: 80px;
+  border-bottom: 1px solid #000000;
+}
